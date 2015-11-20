@@ -14,15 +14,22 @@ In Terminal:
 
 **LEARN GIT, IT'S IMPORTANT**
 
-Git is a free and open source distributed version control system. What does that mean? Pretty much it lets you make edits to your code/files and put them under versions so you can revert them if something goes bad.
+Git is a free and open source distributed version control system. What does
+that mean? Pretty much it lets you make edits to your code/files and put them
+under versions so you can revert them if something goes bad.
 
-I or your tier leader could teach you Git but honestly, this is more fun: [Try Git](https://try.github.io/levels/1/challenges/1). More advance functions like pull requests and merge conflicts well be taught by your tier leader. 
+I or your tier leader could teach you Git but honestly, this is more fun:
+[Try Git](https://try.github.io/levels/1/challenges/1). More advance functions
+like pull requests and merge conflicts well be taught by your tier leader.
 
-*If you're hardcore, here's the [documentation for Git](https://git-scm.com/documentation)*
+*If you're hardcore, here's the
+[documentation for Git](https://git-scm.com/documentation)*
 
 #### [Github](https://github.com)
 
-I recommend using GitHub for your remote version control. If you're a student you get 5 private repositories for free, plus bunch of other goodies [here](https://education.github.com/).
+I recommend using GitHub for your remote version control. If you're a student
+you get 5 private repositories for free, plus bunch of other goodies
+[here](https://education.github.com/).
 
 #### Installation
 
@@ -56,13 +63,44 @@ In Terminal:
 
 ## [Node.js](https://nodejs.org/en/)
 
-> Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
+> Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+> Node.js uses an event-driven, non-blocking I/O model that makes it
+> lightweight and efficient. Node.js' package ecosystem, npm, is the largest
+> ecosystem of open source libraries in the world.
 
-I can talk about node all day but for the purposes of Web Tier, it's used mostly for automation. If you're in Web Development, you might use it as a server framework.
+I can talk about node all day but for the purposes of Web Tier, it's used
+mostly for automation. If you're in Web Development, you might use it as a
+server framework.
 
 #### Installation
 
+Install and use NVM for the love of... seirously don't manage Node by yourself
 
+**Mac & Linux**
+
+In Terminal:
+
+```bash
+> curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
+```
+
+**Windows**
+
+Follow the instructions found
+[here](https://github.com/coreybutler/nvm-windows)
+
+#### Post Install Setup
+
+In Termianl (Mac/Linux) or Command Prompt (Windows)
+
+```bash
+> nvm install stable
+> nvm use stable
+> node -v
+```
+
+You should see a node version, the latest stable found on the node
+[homepage](https://nodejs.org/en/).
 
 ## Things that could make your life easier
 
@@ -100,4 +138,3 @@ You can install these through your Atom `preferences > Install`
 *Vim master race, jk I'm not like that*
 
 Just go look at my terrible [dotfiles](https://github.com/cle1994/dotfiles).
-

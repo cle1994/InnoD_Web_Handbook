@@ -4,6 +4,7 @@ By [Christian Le](https://github.com/cle1994)
 # Table of Contents
 
 * [Preface](#preface)
+* [Acknowledgements](#acknowledgements)
 * [What is Web Tier?](0-what_is_web_tier.md)
 * [Setup and Basics](1-setup_and_basics.md)
     * [Git](1-setup_and_basics.md#git)
@@ -18,6 +19,7 @@ The information found in this book comes from my failures, errors, and growth as
 
 Also, I use a Mac, so instructions will be assuming you use a Mac, sorry :disappointed:. I'll try to add as much Windows and Linux as a can but no guarantees it'll work. (Please pull request me for added instructions for those operation systems)
 
+<a name="acknowledgements"></a>
 # Acknowledgements
 Just wanted to say thank you to those that helped me as I wrote this.
 
