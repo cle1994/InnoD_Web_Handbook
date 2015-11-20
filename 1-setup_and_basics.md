@@ -10,7 +10,8 @@ In Terminal:
 > ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-## [Git](https://git-scm.com/) <a name="git"><a/>
+<a name="git"><a/>
+## [Git](https://git-scm.com/)
 
 **LEARN GIT, IT'S IMPORTANT**
 
@@ -25,12 +26,14 @@ like pull requests and merge conflicts well be taught by your tier leader.
 *If you're hardcore, here's the
 [documentation for Git](https://git-scm.com/documentation)*
 
+<a name="github"><a/>
 #### [Github](https://github.com)
 
 I recommend using GitHub for your remote version control. If you're a student
 you get 5 private repositories for free, plus bunch of other goodies
 [here](https://education.github.com/).
 
+<a name="git-installation"><a/>
 #### Installation
 
 **Mac**
@@ -61,6 +64,7 @@ In Terminal:
 > apt-get install git
 ```
 
+<a name="node"><a/>
 ## [Node.js](https://nodejs.org/en/)
 
 > Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
@@ -72,6 +76,7 @@ I can talk about node all day but for the purposes of Web Tier, it's used
 mostly for automation. If you're in Web Development, you might use it as a
 server framework.
 
+<a name="node-installation"><a/>
 #### Installation
 
 Install and use NVM for the love of... seirously don't manage Node by yourself
@@ -102,8 +107,10 @@ In Termianl (Mac/Linux) or Command Prompt (Windows)
 You should see a node version, the latest stable found on the node
 [homepage](https://nodejs.org/en/).
 
+<a name="helpful-things"><a/>
 ## Things that could make your life easier
 
+<a name="helpful-sublime"><a/>
 #### If you use [Sublime](http://www.sublimetext.com/)
 
 - [Sublime Package Manager](https://packagecontrol.io/)
@@ -119,6 +126,7 @@ You should see a node version, the latest stable found on the node
     - Installation: https://packagecontrol.io/packages/Sass
     - For way better CSS
 
+<a name="helpful-atom"><a/>
 #### If you use [Atom](https://atom.io/)
 
 You can install these through your Atom `preferences > Install`
@@ -133,6 +141,7 @@ You can install these through your Atom `preferences > Install`
     - Search `language-sass`
     - Install "language-sass" by atom
 
+<a name="helpful-vim"><a/>
 #### If you use Vim
 
 *Vim master race, jk I'm not like that*

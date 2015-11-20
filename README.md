@@ -8,6 +8,14 @@ By [Christian Le](https://github.com/cle1994)
 * [What is Web Tier?](0-what_is_web_tier.md)
 * [Setup and Basics](1-setup_and_basics.md)
     * [Git](1-setup_and_basics.md#git)
+      * [GitHub](1-setup_and_basics.md#github)
+      * [Installation](1-setup_and_basics.md#git-installation)
+    * [Node](1-setup_and_basics.md#node)
+      * [Installation](1-setup_and_basics.md#node-installation)
+    * [Things you might find useful](1-setup_and_basics.md#helpful-things)
+      * [Sublime](1-setup_and_basics.md#helpful-sublime)
+      * [Atom](1-setup_and_basics.md#helpful-atom)
+      * [Vim](1-setup_and_basics.md#helpful-vim)
 
 <a name="preface"></a>
 # Preface
