@@ -108,7 +108,9 @@ You should see a node version, the latest stable found on the node
 [homepage](https://nodejs.org/en/).
 
 <a name="helpful-things"><a/>
-## Things that could make your life easier
+## Things you might find useful
+
+This stuff might make your life a lot easier as a web developer.
 
 <a name="helpful-sublime"><a/>
 #### If you use [Sublime](http://www.sublimetext.com/)
