@@ -16,6 +16,7 @@ By [Christian Le](https://github.com/cle1994)
       * [Sublime](1-setup_and_basics.md#helpful-sublime)
       * [Atom](1-setup_and_basics.md#helpful-atom)
       * [Vim](1-setup_and_basics.md#helpful-vim)
+* [Resources](2-resources.md)
 
 <a name="preface"></a>
 # Preface
