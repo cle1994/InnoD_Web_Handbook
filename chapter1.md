@@ -1,3 +1,0 @@
-# What is Web Tier?
-
-
