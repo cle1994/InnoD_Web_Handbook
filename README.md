@@ -1,6 +1,14 @@
 # The Handbook for Innovative Design's Web Tier
 By [Christian Le](https://github.com/cle1994)
 
+# Table of Contents
+
+* [Preface](#preface)
+* [What is Web Tier?](0-what_is_web_tier.md)
+* [Setup and Basics](1-setup_and_basics.md)
+    * [Git](1-setup_and_basics.md#git)
+
+<a name="preface"></a>
 # Preface
 **This is by no means the definitive guide to all things web or web development.**
 
