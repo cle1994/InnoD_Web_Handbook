@@ -8,6 +8,8 @@ I wrote this as a guide to aid in your growth as a web developer, whether your f
 
 The information found in this book comes from my failures, errors, and growth as an intern and a technical co-founder. Again, this isn't a definitive guide to anything, just an aid, take it how you will.
 
+Also, I use a Mac, so instructions will be assuming you use a Mac, sorry :disappointed:. I'll try to add as much Windows and Linux as a can but no guarantees it'll work. (Please pull request me for added instructions for those operation systems)
+
 # Acknowledgements
 Just wanted to say thank you to those that helped me as I wrote this.
 
