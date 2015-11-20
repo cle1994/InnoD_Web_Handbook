@@ -16,7 +16,7 @@ In Terminal:
 
 Git is a free and open source distributed version control system. What does that mean? Pretty much it lets you make edits to your code/files and put them under versions so you can revert them if something goes bad.
 
-I or your tier leader could teach you Git but honestly, this is more fun: [Try Git](https://try.github.io/levels/1/challenges/1). More advance functions like pull requests and merge conflicts well be taught by your tier leader. 
+I or your tier leader could teach you Git but honestly, this is more fun: [Try Git](https://try.github.io/levels/1/challenges/1). More advanced functions like pull requests and merge conflicts will be taught by your tier leader.
 
 *If you're hardcore, here's the [documentation for Git](https://git-scm.com/documentation)*
 
@@ -62,8 +62,6 @@ I can talk about node all day but for the purposes of Web Tier, it's used mostly
 
 #### Installation
 
-
-
 ## Things that could make your life easier
 
 #### If you use [Sublime](http://www.sublimetext.com/)
@@ -97,7 +95,7 @@ You can install these through your Atom `preferences > Install`
 
 #### If you use Vim
 
-*Vim master race, jk I'm not like that*
+*Vim master race, jk I'm not like that, except I am*
 
-Just go look at my terrible [dotfiles](https://github.com/cle1994/dotfiles).
+Take a look at my [dotfiles](https://github.com/cle1994/dotfiles).
 
