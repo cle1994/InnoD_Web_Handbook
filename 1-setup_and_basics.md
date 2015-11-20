@@ -10,7 +10,7 @@ In Terminal:
 > ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-## [Git](https://git-scm.com/)
+## Git (https://git-scm.com/)
 
 **LEARN GIT, IT'S IMPORTANT**
 
