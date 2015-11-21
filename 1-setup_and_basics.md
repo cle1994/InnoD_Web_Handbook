@@ -146,7 +146,6 @@ You can install these through your Atom `preferences > Install`
 <a name="helpful-vim"><a/>
 #### If you use Vim
 
-*Vim master race, jk I'm not like that, except I am*
+*Vim master race, jk I'm not like that*
 
 Take a look at my [dotfiles](https://github.com/cle1994/dotfiles).
-
