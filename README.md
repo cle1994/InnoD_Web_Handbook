@@ -88,7 +88,7 @@ Angular app with some Ruby of Rails. I then moved to working a lot in Node.js
 (more server side stuff) during my free time and building out full stack web
 apps. During my junior year at Berkeley, I co-founded
 [Outcomes.com](https://outcomes.com) with
-a Haas MBA. In the first 7 months, we built bootstrapped a health tech company
+a Haas MBA. In the first 7 months, we bootstrapped a health tech company
 and started a pilot with Alameda Health System. If you're interesting, the
 entire platform is built in Angular, React, and Node.
 
