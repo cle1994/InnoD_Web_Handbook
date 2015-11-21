@@ -1,5 +1,11 @@
 # Setup and Basics
 
+**Quick Jump**
+
+* [Git](#git)
+* [Node](#node)
+* [Things you might find useful](#helpful-things)
+
 ## [Homebrew](http://brew.sh/)
 
 **ONLY IF YOU'RE ON MAC**

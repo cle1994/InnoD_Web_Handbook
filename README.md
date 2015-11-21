@@ -1,5 +1,6 @@
 # The Handbook for Innovative Design's Web Tier
-By [Christian Le](https://github.com/cle1994)
+By [Christian Le](https://github.com/cle1994) for
+[Innovative Design](http://innovativedesign.club/)
 
 # Table of Contents
 

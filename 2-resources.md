@@ -1,5 +1,8 @@
 # Resources and references
 
+These are some really good resources to learn and reference when you are
+developing.
+
 ## Git:
 - [Try Github (Fun and cute)](https://try.github.io/levels/1/challenges/1)
 - [Getting Started](http://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
