@@ -19,18 +19,21 @@ create web pages. If you want to do web dev, you're going to write HTML.
 <a name="elements"></a>
 ## Elements
 
-An **element** is a part of webpage. It contains at least one tag, and it's
-accompanying closing tag (we'll go more in depth later about tags). Elements
+An **element** is a part of webpage. They define the semantic meaning of their
+content. Elements include two matching tags and everything in between. It
+contains at least one tag (we'll go more in depth later about tags). Elements
 can contain images, text, other elements, or even nothing.
 
 ```html
 <div class="outer-element">
-  <div class="inner-element"></div>
-  <div class="another-inner-element"></div>
+  <p class="inner-element"></div>
+  <p class="another-inner-element"></div>
 </div>
 ```
 
-Here we see an outer element with two inner elements.
+Here we see an outer element with two paragraphs as inner elements.
 
 <a name="tags"></a>
 ## Tags
+
+A **tag**
