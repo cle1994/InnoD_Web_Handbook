@@ -48,8 +48,9 @@ Most tags need to be closed `</{{ tag }}>`. Some tags are self closing.
 
 Here we have emphasized text with strong text in the middle.
 
-**There's a crap ton of tags but I'll cover a few special ones and list random
-ones after**
+#### There's a crap ton of tags
+
+I'll cover a few special ones and list as many as I know afterwards
 
 <a name="tags-head"></a>
 #### Head and Body Tags
