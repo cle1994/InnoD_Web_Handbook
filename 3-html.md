@@ -36,4 +36,20 @@ Here we see an outer element with two paragraphs as inner elements.
 <a name="tags"></a>
 ## Tags
 
-A **tag**
+Since HTML is written in plain text (you can write it in notepad if you want
+but please don't), there needs to be a way for browsers to know how to
+render/display contents; this is where tags come in. Every time something is
+surrounded by `<{{ tag }}>`, browsers think there's special meaning to that text.
+Most tags need to be closed `</{{ tag }}>`. Some tags are self closing.
+
+```html
+<em>I <strong>really</strong> mean that</em>.
+```
+
+Here we have emphasized text with strong text in the middle.
+
+**There's a crap ton of tags but I'll cover a few special ones and list random
+ones after**
+
+<a name="tags-head"></a>
+#### Head and Body Tags
