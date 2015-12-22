@@ -54,3 +54,19 @@ I'll cover a few special ones and list as many as I know afterwards
 
 <a name="tags-head"></a>
 #### Head and Body Tags
+
+The `head` tag contains all the metadata (or information about the page/doc).
+This includes the title tag, the various meta tags (see below), links to
+stylesheets, and sometimes* scripts or script imports. Anything that you want
+to show should not be in the `<head></head>` tag.
+
+The `body` tag is where things that should be displayed and rendered at put.
+A long list of most used tags that are usually used in body can be found below.
+
+*I say sometimes scripts because they can all be set in the `<head>` but that
+could drastically slow down page load times so scripts tags are sometimes moved
+to the bottom of the body. Some scripts must be in the head though. Angular,
+for example must be loaded in the `<head>` before the body.
+
+<a name="tags-meta">
+#### Meta Tags
