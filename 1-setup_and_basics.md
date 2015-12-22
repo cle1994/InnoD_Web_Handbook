@@ -32,6 +32,41 @@ like pull requests and merge conflicts will be taught by your tier leader.
 *If you're hardcore, here's the
 [documentation for Git](https://git-scm.com/documentation)*
 
+#### A Basic Rundown
+These are the commands you'll probably be using most with simple explanations.
+
+Start a git repository for version control.
+```bash
+$ git init
+```
+
+See current git status
+```bash
+$ git status
+```
+
+Add files to be tracked by git
+```bash
+$ git add [FILE]      # add just one file
+$ git add [FOLDERS]   # add a folder
+$ git add .           # add all in current folder
+```
+
+Commit files to version control (take a snapshot)
+```bash
+$ git commit -m '[MESSAGE]'   # where MESSAGE is your commit message
+```
+
+Push to remote repository, like GitHub
+```bash
+$ git push [REMOTE] [BRANCH]:[REMOTE_BRANCH]  # git push origin master:master
+```
+
+Add a remote
+```bash
+$ git remote add origin https://github.com/user/repo.git
+```
+
 <a name="github"><a/>
 #### [Github](https://github.com)
 
