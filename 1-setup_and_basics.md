@@ -120,7 +120,7 @@ server framework.
 <a name="node-installation"><a/>
 #### Installation
 
-Install and use NVM for the love of... seirously don't manage Node by yourself
+Install and use NVM for the love of...seriously don't manage Node by yourself
 
 **Mac & Linux**
 
