@@ -43,12 +43,12 @@ surrounded by `<{{ tag }}>`, browsers think there's special meaning to that text
 Most tags need to be closed `</{{ tag }}>`. Some tags are self closing.
 
 ```html
-<em>I <strong>really</strong> mean that</em>.
+<em>I <strong>really</strong> like penguins</em>.
 ```
 
 Here we have emphasized text with strong text in the middle.
 
-#### There's a crap ton of tags
+### There's a crap ton of tags
 
 I'll cover a few special ones and list as many as I know afterwards
 
@@ -60,13 +60,144 @@ This includes the title tag, the various meta tags (see below), links to
 stylesheets, and sometimes* scripts or script imports. Anything that you want
 to show should not be in the `<head></head>` tag.
 
-The `body` tag is where things that should be displayed and rendered at put.
-A long list of most used tags that are usually used in body can be found below.
+The `body` tag is where pretty much everything else goes.
 
 *I say sometimes scripts because they can all be set in the `<head>` but that
 could drastically slow down page load times so scripts tags are sometimes moved
 to the bottom of the body. Some scripts must be in the head though. Angular,
-for example must be loaded in the `<head>` before the body.
+for example should probably be loaded in the `<head>` before the body for
+cleanest application launch.*
 
 <a name="tags-meta">
 #### Meta Tags
+
+Meta data is data that is used to describe the data, or page/website/doc. Search
+engines, such as Google, use meta tags to index your website and display
+useful information in search results. Facebook and Pinterest use open graph
+meta tags to get cool previews when you link something, Twitter has their own
+thing. Pretty much the more meta tags, the better, but law of diminishing
+returns. Don't go crazy. I'm going to list the ones I use below.
+
+You must include `title`
+```html
+<title>Page Title</title>
+```
+
+Tell the browser your HTML file is using the UTF-8 character set.
+```html
+<meta charset="UTF-8">
+```
+
+This if for IE8/9 support if you need it.
+```html
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+```
+
+Use the following to control layout on different size screen and responsive
+ design.
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1">
+```
+
+A description of the webpage
+```html
+<meta name="description" content="">
+```
+
+Keywords about your webpage (think of these as hashtags)
+```html
+<meta name="keywords" content="">
+```
+
+The author of the webpage (probably you)
+```html
+<meta name="author" content="">
+```
+
+Name/title of your webpage
+```html
+<meta itemprop="name" content="">
+```
+
+A description of the webpage
+```html
+<meta itemprop="description" content="" />
+```
+
+A image for the webpage
+```html
+<meta itemprop="image" content="" />
+```
+
+###### Facebook/Open Graph meta tags
+
+The pages title
+```html
+<meta property="og:title" content="">
+```
+
+Your website's name
+```html
+<meta property="og:site_name" content="">
+```
+
+The url of the webpage (link)
+```html
+<meta property="og:url" content="">
+```
+
+The description of the webpage
+```html
+<meta property="og:description" content="">
+```
+
+Type of webpage (article, website, product, etc.)
+[Link to all of them](http://ogp.me/#types)
+```html
+<meta property="og:type" content="">
+```
+
+###### Twitter meta tags
+
+A summary of the contents your webpage
+```html
+<meta name="twiiter:card" content="">
+```
+
+Your Twitter handle
+```html
+<meta name="twiiter:site" content="">
+```
+
+Title of your webpage
+```html
+<meta name="twiiter:title" content="">
+```
+
+Description of the your webpage
+```html
+<meta name="twiiter:description" content="">
+```
+
+Image for your webpage
+```html
+<meta name="twiiter:image:src" content="">
+```
+
+This aren't really meta tags, but they are special icons/favicon for different
+devices/OS.
+```html
+<link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+```
