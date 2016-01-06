@@ -184,8 +184,14 @@ Image for your webpage
 <meta name="twiiter:image:src" content="">
 ```
 
-This aren't really meta tags, but they are special icons/favicon for different
-devices/OS.
+<a name="tags-link">
+#### Link Tags
+
+Link tags allow you to reference an external resource to include in your
+document. This can be fonts, icons, stylesheets, etc. Here are a few that I
+usually include.
+
+These are icons for variable devices
 ```html
 <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
@@ -201,3 +207,19 @@ devices/OS.
 <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
 ```
+
+For stylesheets (css files), you can include more than one. Remember they are
+cascading so later links will override previous ones.
+```html
+<link rel="stylesheet" type="text/css" href="style.css">
+```
+
+And fonts, if you want to include nicer fonts. I recommend using
+[Google Fonts](https://www.google.com/fonts) but you can include your own font
+files if you want. Make sure you have the rights to them first.
+```html
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+```
+
+<a name="tags-rest">
+#### Oh so many more tags
