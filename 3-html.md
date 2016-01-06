@@ -7,6 +7,7 @@
   * [Head/Body](3-html.md#tags-head)
   * [Meta](3-html.md#tags-meta)
   * [Link](3-html.md#tags-link)
+  * [Script](3-html.md#tags-script)
   * [Many, many more...](3-html.md#tags-rest)
 * [Attributes](3-html.md#attributes)
 * [Coding Style](3-html.md#style)
@@ -219,6 +220,28 @@ And fonts, if you want to include nicer fonts. I recommend using
 files if you want. Make sure you have the rights to them first.
 ```html
 <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+```
+
+<a name="tags-script">
+#### Your script tags
+Script tags are used to define a client-side scripts, probably Javascript stuff.
+Scripts can be included in the `<head></head>` or in the `<body></body`. It's
+generally preferred to have them at the end of your body for faster page loads.
+
+
+You can either write Javascript in your HTML (but you shouldn't).
+
+```html
+<script>
+document.getElementById("app").innerHTML = "Hello World";
+</script>
+```
+
+Of you can include an external script file (libraries, frameworks, or your own
+scripts).
+
+```html
+<script src="app.js"></script>
 ```
 
 <a name="tags-rest">

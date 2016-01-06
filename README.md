@@ -24,6 +24,7 @@ By [Christian Le](https://github.com/cle1994) for
     * [Head/Body](3-html.md#tags-head)
     * [Meta](3-html.md#tags-meta)
     * [Link](3-html.md#tags-link)
+    * [Script](3-html.md#tags-script)
     * [Many, many more...](3-html.md#tags-rest)
   * [Attributes](3-html.md#attributes)
   * [Style](3-html.md#style)
