@@ -27,7 +27,7 @@ By [Christian Le](https://github.com/cle1994) for
     * [Script](3-html.md#tags-script)
     * [Many, many more...](3-html.md#tags-rest)
   * [Attributes](3-html.md#attributes)
-  * [Style](3-html.md#style)
+  * [Example](3-html.md#example)
 * [CSS](4-css.md)
   * [Selectors](4-css.md#selectors)
   * [Before/After](4-css.md#before)
