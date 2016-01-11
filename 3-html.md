@@ -76,7 +76,7 @@ Meta data is data that is used to describe the data, or page/website/doc. Search
 engines, such as Google, use meta tags to index your website and display
 useful information in search results. Facebook and Pinterest use open graph
 meta tags to get cool previews when you link something, Twitter has their own
-thing. Pretty much the more meta tags, the better, but law of diminishing
+thing. Pretty much the more meta tags, the better, but apply the law of diminishing
 returns. Don't go crazy. I'm going to list the ones I use below.
 
 You must include `title`
@@ -215,7 +215,7 @@ cascading so later links will override previous ones.
 <link rel="stylesheet" type="text/css" href="style.css">
 ```
 
-And fonts, if you want to include nicer fonts. I recommend using
+If you want to include nicer fonts, I recommend using
 [Google Fonts](https://www.google.com/fonts) but you can include your own font
 files if you want. Make sure you have the rights to them first.
 ```html
@@ -229,7 +229,7 @@ Scripts can be included in the `<head></head>` or in the `<body></body`. It's
 generally preferred to have them at the end of your body for faster page loads.
 
 
-You can either write Javascript in your HTML (but I recommend against it).
+You can either write Javascript in your HTML (but I recommend against it)...
 
 ```html
 <script>
@@ -237,7 +237,7 @@ document.getElementById("app").innerHTML = "Hello World";
 </script>
 ```
 
-Of you can include an external script file (libraries, frameworks, or your own
+...or you can include an external script file (libraries, frameworks, or your own
 scripts).
 
 ```html
