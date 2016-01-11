@@ -40,8 +40,8 @@ Here we see an outer element with two paragraphs as inner elements.
 Since HTML is written in plain text (you can write it in notepad if you want
 but please don't), there needs to be a way for browsers to know how to
 render/display contents; this is where tags come in. Every time something is
-surrounded by `<{{ tag }}>`, browsers think there's special meaning to that text.
-Most tags need to be closed `</{{ tag }}>`. Some tags are self closing.
+surrounded by `<{{ tag }}>`, browsers think there's special meaning to that
+text. Most tags need to be closed `</{{ tag }}>`. Some tags are self closing.
 
 ```html
 <em>I <strong>really</strong> like penguins</em>.
@@ -76,8 +76,8 @@ Meta data is data that is used to describe the data, or page/website/doc. Search
 engines, such as Google, use meta tags to index your website and display
 useful information in search results. Facebook and Pinterest use open graph
 meta tags to get cool previews when you link something, Twitter has their own
-thing. Pretty much the more meta tags, the better, but apply the law of diminishing
-returns. Don't go crazy. I'm going to list the ones I use below.
+thing. Pretty much the more meta tags, the better, but apply the law of
+diminishing returns. Don't go crazy. I'm going to list the ones I use below.
 
 You must include `title`
 ```html
@@ -237,8 +237,8 @@ document.getElementById("app").innerHTML = "Hello World";
 </script>
 ```
 
-...or you can include an external script file (libraries, frameworks, or your own
-scripts).
+...or you can include an external script file (libraries, frameworks, or your
+own scripts).
 
 ```html
 <script src="app.js"></script>
