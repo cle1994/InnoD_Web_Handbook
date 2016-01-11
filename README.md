@@ -40,9 +40,7 @@ By [Christian Le](https://github.com/cle1994) for
   * [Variables](5-scss.md#variables)
   * [Mixins](5-scss.md#mixins)
   * [Extending](5-scss.md#extending)
-  * [Style](5-scss.md#style)
 * [Javascript](6-javascript.md)
-  * [Style](6-javascript.md#style)
 
 <a name="preface"></a>
 # Preface
