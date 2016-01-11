@@ -30,10 +30,12 @@ By [Christian Le](https://github.com/cle1994) for
   * [Example](3-html.md#example)
 * [CSS](4-css.md)
   * [Selectors](4-css.md#selectors)
+  * [Media Queries](4-css.md#media-queries)
   * [Before/After](4-css.md#before)
   * [Transitions](4-css.md#transitions)
   * [Animations/Key-frames](4-css.md#animations)
   * [Prefixing](4-css.md#prefixing)
+  * [Examples](4-css.md#examples)
   * [Style](4-css.md#style)
 * [SCSS](5-scss.md)
   * [Nesting](5-scss.md#nesting)
@@ -89,10 +91,9 @@ as I started learning web development. I was one of four engineers at
 Angular app with some Ruby of Rails. I then moved to working a lot in Node.js
 (more server side stuff) during my free time and building out full stack web
 apps. During my junior year at Berkeley, I co-founded
-[Outcomes.com](https://outcomes.com) with
-a Haas MBA. In the first 7 months, we bootstrapped a health tech company
-and started a pilot with Alameda Health System. If you're interested, the
-entire platform is built in Angular, React, and Node.
+[Outcomes.com](https://outcomes.com). In the first 7 months, we bootstrapped a
+health tech company and started a pilot with Alameda Health System. If you're
+interested, the entire platform is built in Angular, React, and Node.
 
 <a name="acknowledgements"></a>
 # Acknowledgements

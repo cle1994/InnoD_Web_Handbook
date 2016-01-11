@@ -10,7 +10,7 @@
   * [Script](3-html.md#tags-script)
   * [Many, many more...](3-html.md#tags-rest)
 * [Attributes](3-html.md#attributes)
-* [Example](3-html.md#exampe)
+* [Example](3-html.md#example)
 
 ## Introduction
 
