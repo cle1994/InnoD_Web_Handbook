@@ -311,54 +311,82 @@ Below you'll find some common elements and widely used attributes.
 *Check [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes) for
 a comprehensive reference to all attributes and their related elements.*
 
-```html
-<div class=""></div>
-```
+
+###### class
+
 `class` is a global attribute that can be used with any element. It's used with
 CSS to style common elements.
 
 ```html
-<div id=""></div>
+<div class=""></div>
 ```
+
+###### id
+
 `id` is also a global attribute that is used to identify/select specific
 elements. The `id` value must be unique on the page.
 
 ```html
+<div id=""></div>
+```
+
+###### href
+
+`href` is used to specify the url or location for a link.
+
+```html
 <a href=""></a>
 ```
-`href` is used to specify the url or location for a link.
+
+###### name
+
+`name` is used by the server to identify fields on form submit
 
 ```html
 <input name="" />
 ```
-`name` is used by the server to identify fields on form submit
+
+###### placeholder
+
+`href` is used to specify the url or location for a link.
 
 ```html
 <input placeholder="" />
 ```
-`placeholder` providers hints for `input`, `textarea`
+
+###### required
+
+`required` makes an `input`, `select`, `textarea` required
 
 ```html
 <input required />
 ```
-`required` makes an `input`, `select`, `textarea` required
 
-```html
-<input type="" />
-```
+###### type
+
 `type` defines the type for the element. Common types for input are `radio`,
 `email`, `password`, `number`, `button`, `checkbox`.
 
 ```html
+<input type="" />
+```
+
+###### src
+
+`src` is the url for the embedded content
+
+```html
 <img src="" />
 ```
-`src` is the url for the embedded content
+
+###### title
+
+`title` is a global attribute that is used to display text in the tooltip on
+hover
 
 ```html
 <div title />
 ```
-`title` is a global attribute that is used to display text in the tooltip on
-hover
 
 <a name="example">
 ## Example
