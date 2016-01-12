@@ -8,7 +8,7 @@ getify. Modified and simplified for Web Tier because there's just so much.
 But when you get the chance read through his books, I wish I had this when
 I started out.
 
-https://github.com/getify/You-Dont-Know-JS
+[You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
 
 ### JavaScript as a language
 #### Values & Types
