@@ -369,7 +369,7 @@ body {
 }
 ```
 
-Remember that if your extending a class, using a variable, or using a
-mixin/function, it the class, variable, or mixin should come before the usage.
+Remember that if you're extending a class, using a variable, or using a
+mixin/function, that class, variable, or mixin should come before the usage.
 Also, Sass is still cascading so earlier imports could possibly be overwritten
 by later imports.
