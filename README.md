@@ -36,10 +36,12 @@ By [Christian Le](https://github.com/cle1994) for
   * [Prefixing](4-css.md#prefixing)
   * [Examples](4-css.md#examples)
 * [SCSS](5-scss.md)
+  * [Compiled](5-scss.md#compiled)
   * [Nesting](5-scss.md#nesting)
   * [Variables](5-scss.md#variables)
   * [Mixins](5-scss.md#mixins)
   * [Extending](5-scss.md#extending)
+  * [Import](5-scss.md#import)
 * [Javascript](6-javascript.md)
 
 <a name="preface"></a>
