@@ -100,6 +100,5 @@ currently exploring Angular 2.0 and Elm as possibilities for future projects.
 # Acknowledgements
 Just wanted to say thank you to those that helped me as I wrote this.
 
-[Julia Sun](https://github.com/jubearsun) - For editing my terrible writing
-
+[Julia Sun](https://github.com/jubearsun) - For editing my terrible writing.
 Check out her website [here](http://juliasun.io).
