@@ -11,17 +11,17 @@
 
 ## Introduction
 
-CSS, cascading style sheets, is a language used to describe the presentation
+CSS (cascading style sheets), is a language used to describe the presentation
 for markup languages. It's most commonly used to style web pages. The reasoning
 behind *cascading* is that styles found later in the style sheets "override"
 previous ones.
 
-Fun fact, since CSS is cascading, browsers
+Fun fact: since CSS is cascading, browsers
 apply styles right to left which means a "child", or more deeply nested element,
 is applied first, then it checks the "parent" for properties not already
 applied. You can see the benefits of not having to recursively check properties,
 and not having to wait for the entire DOM to render. This is partially the
-reason why, in many cases, not all, it's faster, and more stylistic, to use
+reason why in many cases, not all, it's faster and more stylistic to use
 `class` over `id`. There are plenty of articles about this stuff, Google away if
 you're interested.
 
@@ -169,16 +169,16 @@ element of class hello.
 ## Media Queries
 
 Media queries are used mainly for responsive design. They allow you to limit
-certain styles and properties for different media type and screen size.
+certain styles and properties for different media types and screen size.
 
 A lot of people will be asking, *"why would you need to worry about media
-queries or responsive design when there are tools like bootstrap"*. Well for
+queries or responsive design when there are tools like bootstrap"*? Well for
 one, bootstrap is relatively heavy and it doesn't allow for great customization
 unless you're willing to hack things around it. Even though bootstrap allows you
 to pick and choose the parts you need, there's a lot dependencies and you'll end
 up with bloat you might not need. Another reason is that it's extremely
 limiting to your designs, there's a strict 12 column grid system that breaks
-at specific widths and your design must fit into those guidelines. Problem is
+at specific widths and your design must fit into those guidelines. However
 content doesn't always flow well at those specific widths and columns so it's
 better to use your own media queries and breakpoints that match your design.
 
@@ -492,5 +492,4 @@ Here are some useful CSS snippets that can make your life easier.
 }
 ```
 
-These are just some random snippets I thought of on the spot, open some issues
-if you want to see more! I'll try to not out a couple a day.
+The previous snippets are just some I thought of when I was writing this. If you want more examples or snippets, open a GitHub issue describing what you want and I'll try to post a snippet within the day.
