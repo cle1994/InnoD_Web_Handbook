@@ -342,7 +342,7 @@ selector.
 }
 ```
 
-Now you and have subclasses for you classes :grin:.
+Now you can have subclasses for you classes :grin:.
 
 <a name="import"></a>
 ## Import
