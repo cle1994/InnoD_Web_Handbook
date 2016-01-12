@@ -92,7 +92,7 @@ apps. During my junior year at Berkeley, I co-founded
 [Outcomes.com](https://outcomes.com). In the first 7 months, we bootstrapped a
 health tech company and started a pilot with Alameda Health System. If you're
 interested, the entire platform is built in Angular, React, and Node. As of
-recent, I've moved to mostly building everything with React and Node. The
+recent, I've moved to building almost all projects with React and Node. The
 rewrite of [my personal website](http://christianle.com) for example. I'm
 currently exploring Angular 2.0 and Elm as possibilities for future projects.
 
