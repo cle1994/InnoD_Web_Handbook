@@ -85,9 +85,9 @@ function hello(world) {
 
 hello.bye = 'sadness';
 
-typeof hello;           // You tell me
-typeof hello();         // Guesses?
-typeof hello.bye;       // hi?
+typeof hello;           // 'function'
+typeof hello();         // 'undefined'
+typeof hello.bye;       // 'string'
 ```
 
 
@@ -98,13 +98,12 @@ typeof hello.bye;       // hi?
 var a = '10';
 var b = Number(a);
 
-a;                      // '42'
-b;                      // 42
+a;                      // '10'
+b;                      // 10
 
 // Implicit
 var c = a * 1;
-a;                      // what do you think?
-b;                      // ???
+c;                      // 10
 ```
 
 #### True/False
@@ -132,8 +131,8 @@ var a = [1,2,3];
 var b = [1,2,3];
 var c = "1,2,3";
 
-a == b;                 // Gut instinct?
-a == c;
+a == b;                 // false
+a == c;                 // true (LOL wtf right)
 ```
 
 ### Scope
