@@ -87,14 +87,18 @@ More on my experiences with web dev, I worked largely in Angular.js
 as I started learning web development. I was one of four engineers at
 [Storefront](http://thestorefront.com) my sophomore year working on the
 Angular app with some Ruby of Rails. I then moved to working a lot in Node.js
-(more server side stuff) during my free time and building out full stack web
+(server side stuff) during my free time and building out full stack web
 apps. During my junior year at Berkeley, I co-founded
-[Outcomes.com](https://outcomes.com). In the first 7 months, we bootstrapped a
-health tech company and started a pilot with Alameda Health System. If you're
-interested, the entire platform is built in Angular, React, and Node.
+[Outcomes.com](https://www.outcomes.com). In the first 7 months, we bootstrapped
+a health tech company and started a pilot with Alameda Health System. If you're
+interested, the entire platform is built in Angular, React, and Node. As of
+recent, I've moved to building almost all projects with React and Node. The
+rewrite of [my personal website](http://christianle.com) for example. I'm
+currently exploring Angular 2.0 and Elm as possibilities for future projects.
 
 <a name="acknowledgements"></a>
 # Acknowledgements
 Just wanted to say thank you to those that helped me as I wrote this.
 
-[Julia Sun](https://github.com/jubearsun) - For editing my terrible writing
+[Julia Sun](https://github.com/jubearsun) - For editing my terrible writing.
+Check out her website [here](http://juliasun.io).
