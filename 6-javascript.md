@@ -35,8 +35,8 @@ Python. It's the quintessential programming language of the web.
 While you're first starting out, Javascript will mostly be used so that
 you can manipulate DOM elements. We'll go over how jQuery can make this
 a lot easier for you later, but you should understand how jQuery does it
-and how to use plain Javascript with frameworks or libraries (it comes
-up a lot if you ever interview for a web engineer position).
+and how to use plain Javascript without frameworks or libraries (it comes
+up a lot if you ever interview for a job requiring you do to web work).
 
 In general, it's good to know Javascript fairly well because you can use
 it to build simple backends or APIs to talk to those backends using Node.js.
@@ -159,8 +159,8 @@ Everything else is true
 var a = "42";
 var b = 42;
 
-a == b;
-a === b;
+a == b;   // true (javascript does automatic type coercion)
+a === b;  // false
 ```
 
 What's the difference?
@@ -190,7 +190,7 @@ function add(x, y) {
 };
 ```
 
-It's the job scope -- and scope resolution -- to pick which sum to return.
+It's the job of scope -- and scope resolution -- to pick which sum to return.
 
 ```c
 printf("web");
@@ -349,28 +349,51 @@ person.logName();     // Logs "doe"
 ```javascript
 var person = {
   name: "Doe",
-  logName: function(shouldLog) {
+  logName: function(shouldLog, defaultName) {
     if (shouldLog) {
-      console.log(this.name);
+      if (!this.name) {
+        console.log(defaultName);
+      } else {
+        console.log(this.name);
+      }
     }
   }
 };
 
-person.logName.call({ name: "John" }, true);      // Logs "John"
+person.logName.call({ name: "John" }, true, "Perry");      // Logs "John"
+person.logName.call({ name: null }, true, "Perry");        // Logs "Perry"
 ```
+*The function params of call are the object you want to set for `this` and
+the original params for the function.*
+*In the example above, we use call on the function `logName` pass in the
+object `{ name: "John" }` for what we want as `this` and then pass true
+since `logName` requires param `shouldLog`*
 
 ```javascript
 var person = {
   name: "Doe",
-  logName: function(shouldLog) {
+  logName: function(shouldLog, defaultName) {
     if (shouldLog) {
-      console.log(this.name);
+      if (!this.name) {
+        console.log(defaultName);
+      } else {
+        console.log(this.name);
+      }
     }
   }
 };
 
-person.logName.apply({ name: "John" }, [true]);       // Logs "John"
+person.logName.apply({ name: "John" }, [true, "Perry"]);       // Logs "John"
+person.logName.apply({ name: null }, [true, "Perry"]);         // Logs "Perry"
 ```
+*The function params of apply are the object you want to set for `this` and
+the original params for the function as an array.*
+*In the example above, we use apply on the function `logName` pass in the
+object `{ name: "John" }` for what we want as `this` and then pass [true]
+since `logName` requires just 1 param `shouldLog`*
+*The difference between apply and call, is that call will take a params 
+like normal while apply takes an array for the params*
+
 
 3. Using `.bind()`
 ```javascript
@@ -439,4 +462,103 @@ user.print();
 ```
 
 <a name="dom"></a>
-# DOM/DOM trees/Dom Manipulation
+# DOM/DOM trees/DOM Manipulation
+There's honestly a lot you can do with DOM manipulation, I'm just going
+to find simple jQuery methods and show you how to do them in vanilla
+Javascript.
+
+## DOM
+DOM stands for "Document Object Model", it's the representation of your
+document (webpage) for programs/browsers/etc. to understand.
+
+It allows you to select invidual tags or elements by their tag type,
+class names, IDs, and so forth.
+
+## DOM Tree
+Google "DOM Tree" I will make a diagram sometime :D
+
+## DOM Manipulation
+There's a shit ton a manipulations you can do with the DOM via Javascript.
+I'm not going to go through all of them but I'll take some common jQuery
+functions and write them in vanilla JS for you. The idea isn't to not use
+jQuery, it's to make you understand how things work. I went through a
+phase of refusing to use jQuery and it made me understand how things work
+a lot better. Eventually if you use React or Angular or
+{ insert hip framework }, you'll probably not use jQuery.
+
+```js
+jquery.hasClass();
+
+//// With jQuery
+$('#elem').hasClass('pretty');
+
+//// Plain JS
+// For old browsers, and not very efficient
+document.getElementById('elem').className.split(' ').indexOf('pretty') >= 0;
+
+// For more modern browsers
+document.getElementById['elem'].classList.contains('pretty');
+```
+
+```js
+jquery.addClass();
+
+//// With jQuery
+$('#elem').addClass('pretty');
+
+//// Plain JS
+// For old browsers, and not very efficient
+var element = document.getElementById('elem);
+var classNames = element.className.split(' ');
+var classIndex = classNames.indexOf('pretty');
+if (classIndex < 0) {
+  element.className = classNames.push('pretty').join(' ');
+}
+
+// For more modern browsers
+document.getElementById['elem'].classList.add('pretty');
+```
+
+```js
+jquery.removeClass();
+
+//// With jQuery
+$('#elem').removeClass('pretty');
+
+//// Plain JS
+// For old browsers, and not very efficient
+var element = document.getElementById('elem);
+var classNames = element.className.split(' ');
+var classIndex = classNames.indexOf('pretty');
+if (classIndex >= 0) {
+  element.className = classNames.splice(classIndex, 1);
+}
+
+// For more modern browsers
+document.getElementById['elem'].classList.remove('pretty');
+```
+
+```js
+jquery.click();
+
+//// With jQuery
+$('#elem').click(function() {
+  // Do something
+});
+
+//// Plain JS
+var elem = document.getElementById('elem');
+elem.onclick = function() {
+  // Do something
+}
+
+// or
+elem.addEventListener('click', function() {
+  // Do something
+});
+```
+
+I'm officially lazy now and there's a million methods, if you want
+to see something done in plain JS, just create an issue and I'll
+add it :+1:
+
