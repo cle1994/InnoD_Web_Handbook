@@ -43,6 +43,17 @@ By [Christian Le](https://github.com/cle1994) for
   * [Extending](5-scss.md#extending)
   * [Import](5-scss.md#import)
 * [Javascript](6-javascript.md)
+  * [Javascript as a Language](6-javascript.md#language)
+    * [Typing](6-javascript.md#language-type)
+    * [Objects](6-javascript.md#language-objects)
+    * [Arrays](6-javascript.md#language-arrays)
+    * [Functions](6-javascript.md#language-functions)
+    * [Coercion](6-javascript.md#language-coercion)
+    * [True/False (Booleans)](6-javascript.md#language-booleans)
+    * [Equality](6-javascript.md#language-equality)
+  * [Scope](6-javascript.md#scope)
+  * [`this`](6-javascript.md#this)
+  * [DOM](6-javascript.md#dom)
 
 <a name="preface"></a>
 # Preface
