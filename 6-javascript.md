@@ -508,7 +508,7 @@ $('#elem').addClass('pretty');
 
 //// Plain JS
 // For old browsers, and not very efficient
-var element = document.getElementById('elem);
+var element = document.getElementById('elem');
 var classNames = element.className.split(' ');
 var classIndex = classNames.indexOf('pretty');
 if (classIndex < 0) {
@@ -527,7 +527,7 @@ $('#elem').removeClass('pretty');
 
 //// Plain JS
 // For old browsers, and not very efficient
-var element = document.getElementById('elem);
+var element = document.getElementById('elem');
 var classNames = element.className.split(' ');
 var classIndex = classNames.indexOf('pretty');
 if (classIndex >= 0) {
