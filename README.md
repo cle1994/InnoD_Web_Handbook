@@ -54,6 +54,18 @@ By [Christian Le](https://github.com/cle1994) for
   * [Scope](6-javascript.md#scope)
   * [`this`](6-javascript.md#this)
   * [DOM](6-javascript.md#dom)
+  * [Callbacks](6-javascript.md#callbacks)
+* [Javascript ES2015 and Beyond](7-es2015.md)
+  * [Arrow Functions](7-es2015.md#arrow)
+  * [Classes](7-es2015.md#classes)
+  * [Template Strinsg](7-es2015.md#template)
+  * [Default](7-es2015.md#default)
+  * [Rest](7-es2015.md#rest)
+  * [Spread](7-es2015.md#spread)
+  * [Variable Constructs](7-es2015.md#constructs)
+  * [for...of](7-es2015.md#of)
+  * [for...in](7-es2015.md#in)
+  * [Promises](7-es2015.md#promises)
 
 <a name="preface"></a>
 # Preface

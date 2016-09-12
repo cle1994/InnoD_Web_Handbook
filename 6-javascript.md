@@ -18,6 +18,7 @@ It's the most relevant for web developers.
 * [Scope](6-javascript.md#scope)
 * [`this`](6-javascript.md#this)
 * [DOM](6-javascript.md#dom)
+* [Callbacks](6-javascript.md#callbacks)
 
 # Introduction to JavaScript
 ===================================
@@ -561,4 +562,34 @@ elem.addEventListener('click', function() {
 I'm officially lazy now and there's a million methods, if you want
 to see something done in plain JS, just create an issue and I'll
 add it :+1:
+
+<a name="callbacks"></a>
+# Callbacks and Async
+
+Javascript is asynchronous by nature. Effectively this means that
+functions are non blocking. This can be great for performance since
+long running tasks, like waiting for a response from a server, doesn't
+block UI. It just means you have to be careful about assuming you
+have some piece of data.
+
+This is an example
+```js
+function hello(name) {
+  var timeoutId = setTimeout(function() {
+    console.log("Hello " + name + "!");
+  }, 2000);
+  
+  console.log("Hello World");
+}
+
+hello("Ice Cube");
+```
+```js
+// "Hello World"
+// "Hello Ice Cube!" // After 2000ms
+```
+
+The anonymous function that logs Hello {name} is a callback. Effectively,
+setTimeout is saying after 2000ms (2 secs) call the function. You'll
+callbacks sprinkled everywhere in javascript. Become familiar with them!
 
