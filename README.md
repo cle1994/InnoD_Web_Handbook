@@ -66,7 +66,6 @@ By [Christian Le](https://github.com/cle1994) for
   * [Variable Constructs](7-es2015.md#constructs)
   * [for...of](7-es2015.md#of)
   * [for...in](7-es2015.md#in)
-  * [Promises](7-es2015.md#promises)
 
 <a name="preface"></a>
 # Preface
