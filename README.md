@@ -57,6 +57,7 @@ By [Christian Le](https://github.com/cle1994) for
   * [Callbacks](6-javascript.md#callbacks)
 * [Javascript ES2015 and Beyond](7-es2015.md)
   * [Arrow Functions](7-es2015.md#arrow)
+  * [Underscore](7-es2015.md#underscore)
   * [Classes](7-es2015.md#classes)
   * [Template Strinsg](7-es2015.md#template)
   * [Default](7-es2015.md#default)
